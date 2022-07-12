@@ -31,3 +31,16 @@ ul {
     font-size: 18px;
     font-weight: 500;
 }
+
+.button-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    padding: 16px 40px;
+    background: linear-gradient(0.25turn, #f8039c, #e84051);
+    border-radius: 999px;
+    font-size: 18px;
+    font-weight: 500;
+}

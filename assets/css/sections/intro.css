@@ -1,0 +1,43 @@
+header {
+
+}
+
+.intro-preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7rem 0 6rem 10rem;
+}
+
+.intro-preview-content {
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+    width: 40em;
+    color: white;
+}
+
+.intro-preview-content-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.intro-preview-content-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #dbdbe3
+}
+
+.intro-preview-img-case {
+    position: relative;
+}
+
+.intro-preview-img {
+    position: absolute;
+    right: 0;
+    width: 70rem;
+    height: 55rem;
+    transform: translateY(-30%);
+}

@@ -26,9 +26,8 @@ ul {
     align-items: center;
     width: 320px;
     padding: 16px 40px;
-    background-color: #eb3d4e;
-    border-radius: 10px;
+    background: linear-gradient(0.25turn, #f8039c, #e84051);
+    border-radius: 999px;
     font-size: 18px;
     font-weight: 500;
-    border: 1px solid #ec868e;;
 }

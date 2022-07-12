@@ -6,7 +6,7 @@ nav {
     align-items: center;
     width: 100%;
     height: 70px;
-    padding-left: 20px;
+    padding: 0 20px;
     background-color: #17161d;
     border-bottom: 1px solid #454a66;
 }
@@ -33,12 +33,11 @@ nav div {
 }
 
 .navbar-brand-logo-case {
-    height: 38px;
-    width: 38px;
+    height: 150px;
 }
 
 .navbar-brand-logo {
-    width: 38px;
+    height: 100%;
 }
 
 .navbar-brand-title {
@@ -77,14 +76,3 @@ nav div {
     padding: 0 40px;
 }
 
-.navbar-right-link-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    padding: 0 60px !important;
-    background: linear-gradient(#16141a, #2c2a32);
-    color: white;
-    border-left: 1px solid #454a66;
-    border-right: 1px solid #454a66;
-}

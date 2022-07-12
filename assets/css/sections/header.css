@@ -1,0 +1,26 @@
+header {
+    background: linear-gradient(#0e0b11, #17161d);
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+    width: 60%;
+    padding: 8rem 10rem;
+    color: white;
+}
+
+.header-content-title {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.header-content-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #dbdbe3
+}

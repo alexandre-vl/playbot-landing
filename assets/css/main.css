@@ -8,6 +8,7 @@ body, html {
     background-color: #0e0b11;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
+    overflow-x: hidden;
 }
 
 a {

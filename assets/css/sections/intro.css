@@ -88,20 +88,47 @@ header {
 }
 
 
-@media (max-width: 934px) {
-    .intro-preview-img {
-        display: none;
-    }
+@media (max-width: 1580px) {
 
-    .intro-preview-img-case {
-        margin: 150px 0 250px 0;
+    .intro-preview-img {
+        width: 40rem;
+        height: 30rem;
     }
 
     .intro-preview-img-ipl {
         position: absolute;
         width: 25rem;
-        height: 17rem;
-        right: calc(50%);
+        height: 18rem;
+        right: 220px;
+        transform: translateY(50%);
+    }
+
+    .intro-preview-img-ipr {
+        position: absolute;
+        width: 25rem;
+        height: 18rem;
+        right: 80px;
+        transform: translateY(30%);
+    }
+}
+
+
+@media (max-width: 1180px) {
+
+    .intro-preview-img {
+        display: block;
+    }
+
+    .intro-preview-img-case {
+        right: calc(50% - 300px);
+        margin: 10rem 0 25rem;
+    }
+
+    .intro-preview-img-ipl {
+        position: absolute;
+        width: 25rem;
+        height: 18rem;
+        right: calc(50% - 300px);
         transform: none;
     }
 
@@ -109,16 +136,75 @@ header {
         position: absolute;
         width: 26rem;
         height: 18rem;
-        right: calc(120px - 50%);
+        right: calc(50% - 500px);
         transform: none;
     }
-
     .intro-preview {
         flex-direction: column-reverse;
         padding: 4rem 50px;
     }
-
     .intro-preview-content {
         width: 100%;
     }
+
+
 }
+
+@media (max-width: 1000px) {
+
+    .intro-preview-img-ipl {
+        right: calc(50% - 100px);
+        transform: none;
+    }
+
+    .intro-preview-img-ipr {
+        right: calc(50% - 300px);
+        transform: none;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .intro-preview-img-case {
+        margin-bottom: 15rem;
+    }
+
+    .intro-preview-img {
+        display: none;
+    }
+    .intro-preview-img-ipl {
+        position: absolute;
+        width: 25rem;
+        height: 18rem;
+        right: calc(50% - 100px);
+        transform: none;
+    }
+
+    .intro-preview-img-ipr {
+        position: absolute;
+        width: 26rem;
+        height: 18rem;
+        right: calc(50% - 300px);
+        transform: none;
+    }
+}
+
+
+
+
+
+@media (max-width: 577px) {
+    .intro-preview-img-ipl {
+        position: absolute;
+        right: 190px;
+        transform: none;
+    }
+
+    .intro-preview-img-ipr {
+        position: absolute;
+        right: 0px;
+        transform: none;
+    }
+}
+
+

@@ -155,6 +155,10 @@ header {
         right: 80px;
         transform: translateY(30%);
     }
+
+    .features-preview {
+        margin-top: 2rem;
+    }
 }
 
 @media (max-width: 1400px) {

@@ -44,3 +44,13 @@ ul {
     font-size: 18px;
     font-weight: 500;
 }
+
+
+@media (max-width: 934px) {
+    .button-invite {
+        width: 100%
+    }
+    .button-start {
+        display: none;
+    }
+}

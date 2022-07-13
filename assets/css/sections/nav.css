@@ -9,6 +9,7 @@ nav {
     padding: 0 20px;
     background-color: #17161d;
     border-bottom: 1px solid #454a66;
+    overflow: hidden;
 }
 
 nav div {
@@ -153,8 +154,6 @@ input[type=checkbox] {
         overflow-y: hidden;
 
     }
-
-
 
     .hamburger {
         display: block;

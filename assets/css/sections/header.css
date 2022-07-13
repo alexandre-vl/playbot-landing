@@ -1,4 +1,5 @@
 header {
+
     background: linear-gradient(#0e0b11, #17161d);
 }
 
@@ -28,7 +29,7 @@ header {
 @media (max-width: 1030px) {
     .header-content {
         width: 100%;
-        padding: 4rem 50px;
+        padding: 4rem 20px;
     }
 
 }

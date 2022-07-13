@@ -11,6 +11,10 @@ body, html {
     overflow-x: hidden;
 }
 
+body {
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
     color: #fff;

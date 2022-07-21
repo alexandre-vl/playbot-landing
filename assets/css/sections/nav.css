@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap');
 
 nav {
+    position: fixed;
+    top:0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,6 +12,7 @@ nav {
     background-color: #17161d;
     border-bottom: 1px solid #454a66;
     overflow: hidden;
+    z-index: 99999;
 }
 
 nav div {
@@ -107,7 +110,7 @@ input[type=checkbox] {
     cursor: pointer;
 }
 
-.button-login-navbar {
+.button-login-navbar-case {
     display: none;
 }
 

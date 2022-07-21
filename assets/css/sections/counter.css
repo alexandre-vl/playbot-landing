@@ -21,8 +21,10 @@
 }
 
 .counter-desc {
+    color: #c1c1c1;
     font-weight: 800;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 @media (max-width: 700px) {

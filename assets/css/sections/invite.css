@@ -1,0 +1,39 @@
+.invite {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 25px;
+    height: 100%;
+    width: 100%;
+    padding: 8rem 10rem;
+    color: white;
+}
+
+.invite-title {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.invite-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: right;
+    width: 800px;
+    color: #c1c1c1
+
+}
+
+@media (max-width: 1030px) {
+    .invite {
+        width: 100%;
+        padding: 4rem 20px;
+    }
+
+    .invite-subtitle {
+        width: 100%;
+        text-align: inherit;
+    }
+
+}
